@@ -32,6 +32,9 @@ public class MyRectangle {
     }
 
     public String toString() {
-        return "MyRectangle[topLeft=" + topLeft + ", bottomRight=" + bottomRight + "]";
+        return "MyRectangle[topLeft=" + topLeft
+                + ", topRight=" + getTopRight()
+                + ", bottomRight=" + bottomRight
+                + ", bottomLeft=" + getBottomLeft() + "]";
     }
 }
