@@ -43,5 +43,4 @@ public class Money {
     public String toString() {
         return dollars + "." + String.format("%02d", cents);
     }
-
 }
