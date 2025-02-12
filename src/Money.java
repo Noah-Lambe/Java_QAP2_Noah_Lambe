@@ -1,6 +1,6 @@
 public class Money {
-    private long dollars;
-    private long cents;
+    private long dollars = 0;
+    private long cents = 0;
 
     public Money(double amount) {
         dollars = (long) amount;
